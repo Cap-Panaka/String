@@ -1,2 +1,2 @@
 # String
-Lab 8
+Lab 8 (11 Problems)
