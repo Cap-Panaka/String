@@ -5,12 +5,13 @@ Output:
 Output String: Hello 5*/
 
 #include<stdio.h>
+#include<string.h>
 
 int main()
 {
     char c[30];
     printf("Input String: ");
     gets(c);
-    printf("Output String: ");
-    puts(c);
+   printf("Output String: %s %d",c,strlen(c));
+
 }
