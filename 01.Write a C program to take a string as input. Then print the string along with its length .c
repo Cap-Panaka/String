@@ -2,16 +2,23 @@
 Input:
 Input String: Hello
 Output:
-Output String: Hello 5*/
+Output String: Hello 5
+*/
 
 #include<stdio.h>
 #include<string.h>
 
 int main()
 {
-    char c[30];
-    printf("Input String: ");
+    char c[100];
+    printf("Input string: ");
     gets(c);
-   printf("Output String: %s %d",c,strlen(c));
+
+    int length=strlen(c);
+
+    printf("Output String: ");
+    printf("%s %d",c,length);
+
 
 }
+
